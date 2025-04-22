@@ -1,27 +1,42 @@
-light@light:~/js/CSS_Basics_Assignment$ 1s -1
-total 16
--rw-r--r--@ 1 light staff 146 Apr 3 18:51 index.html
--rw-r--r-- 1 light staff 177 Apr 3 18:52 styles.css
-light@light:~/js/CSS_Basics_Assignment$ cat index.html
-<html>
-
+<!DOCTYPE html>
+<html lang="fi">
 <head>
-    <link rel="stylesheet" type="text/css" href="Styles.css"
+    <meta charset="UTF-8">
+    <title>Oma Verkkosivu</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-<p class="color-example">Testi</p>
-</body>
+    <header id="header">
+        <h1>Roosan verkkosivu</h1>
+    </header>
 
+    <nav id="nav">
+        <a href="index.html">Etusivu</a> |
+        <a href="second.html">Toinen sivu</a>
+    </nav>
+
+    <section id="section">
+        <h2>Tervetuloa sivulleni!</h2>
+        <p>Tämä on testisivu, jossa testaillaan ominaisuuksia. Alla lueteltu muutama asia, joista tykkään</p>
+        <ul>
+            <li>Eläimet</li>
+            <li>Kirjat</li>
+            <li>Sarjat/Elokuvat</li>
+            <li>Autoilu</li>
+        </ul>
+    </section>
+
+    <aside id="aside">
+        <p>Tänne ilmestyy jotain kivaa, kunhan keksin mitä :D!</p>
+    </aside>
+
+    <article id="article">
+        <h3>Uutiset ja artikkelit</h3>
+        <p>Täällä uutisia tai muita juttuja myöhemmin!</p>
+    </article>
+
+    <footer id="footer">
+        <p>&copy; 2025 Roosa Kallio</p>
+    </footer>
+</body>
 </html>
-light@light:~/js/CSS_Basics_Assignment$ cat styles.css
-.color-example {
-border-windth: 3px;
-bordr-style:solid;
-border-color: purple;
-border-radius: 20px;
-background-color: white;
-color: grey;
-padding: 10px;
-}
-light@light:~/js/CSS_Basics_Assignment$
