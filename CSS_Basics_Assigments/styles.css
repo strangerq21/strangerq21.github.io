@@ -1,0 +1,28 @@
+color-example {
+  border-width: 9px;
+  border-style: solid;
+  border-color: #800180;
+  border-radius: 19px;
+  background-color: #d0a1a1;
+  color: #c0bebe;
+  padding: 10px;
+}
+.header-example {
+    font-size: large;
+    font-family:"arial", sans-serif; 
+    color: brown;
+}
+.list-example {
+    color: aliceblue;
+    list-style: armenian;
+}
+.text-example {
+    font-family: "Times New Roman";
+    font-size: large;
+    text-transform:capitalize;
+    text-decoration: underline;
+}
+.div-example {
+    background-color: antiquewhite;
+    border: #d0a1a1;
+}
