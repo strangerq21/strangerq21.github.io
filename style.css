@@ -19,15 +19,21 @@ header img {
 }
 #pehmea{
     border-radius: 12px;
-    box-shadow: 0 6px 12px 
+    box-shadow: 0 6px 12px; 
+    max-width: 100%;
+    height: auto;
 }
 #pehmea2{
     border-radius: 12px;
-    box-shadow: 0 6px 12px 
+    box-shadow: 0 6px 12px;
+     max-width: 100%;
+    height: auto;
 }
 #pehmea3{
     border-radius: 12px;
-    box-shadow: 0 6px 12px 
+    box-shadow: 0 6px 12px;
+     max-width: 100%;
+    height: auto;
 }
 nav a {
     color: white;
@@ -59,7 +65,13 @@ footer {
 .container {
     overflow: auto;
     padding: 20px;
+    max-width: 600px;
+    width: 100%;
     margin: 8px;
+}
+img {
+  max-width: 100%;
+  height: auto;
 }
 .side-nav {
    
