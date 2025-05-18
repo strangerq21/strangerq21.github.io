@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #e3dbcf;
+    color: #333;
+}
+
+header {
+    background-color: #ac9e89;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+header img {
+    height: 50px;
+}
+
+nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #ac9e89;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 110px;
+}
+
+.social-icons img {
+    height: 20px;
+    margin: 0 8px;
+    mix-blend-mode: multiply;
+}
+.main-content {
+      flex: 1;
+      padding: 20px;
+}
+.container {
+    overflow: auto;
+    padding: 20px;
+    margin: 8px;
+}
+.side-nav {
+   
+    width: 20%;
+    background-color: #ffe4c4;
+    padding: 15px;
+    box-sizing: border-box;
+    height:100vh;
+    width: 250px;
+    background-color: #d3ceb6;
+      padding-top: 20px;
+      color: white;
+}
+
+.side-nav a {
+    display: flex;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+.side-nav a:hover {
+    color: red;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+#lihavointi {
+    font-weight: bold;
+}
+#teksti {
+    font-family: 'Times New Roman', Times, serif;
+}
+ul{
+    list-style-type: none;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: left; 
+  margin: 0;
+  padding-left: 0;
+} 
+
+@media (max-width: 600px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav a {
+        margin: 5px 0;
+    }
+
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
