@@ -81,7 +81,13 @@ footer {
 #lihavointi {
     font-weight: bold;
 }
-#teksti {
+#as {
+    font-family: 'Times New Roman', Times, serif;
+}
+#as2 {
+    font-family: 'Times New Roman', Times, serif;
+}
+#as3 {
     font-family: 'Times New Roman', Times, serif;
 }
 ul{
