@@ -1,48 +1,70 @@
 body {
-    font-family: Arial, sans-serif;
     margin: 0;
-    padding: 0;
-    background-color: #fdf6f0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #e3dbcf;
+    color: #333;
 }
 
 header {
-    background-color: #f4a460;
+    background-color: #ac9e89;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+header img {
+    height: 50px;
+}
+
+nav a {
     color: white;
-    padding: 20px;
-    text-align: center;
-}
-
-.top-nav {
-    text-align: center;
-    margin-top: 10px;
-}
-
-.top-nav a {
     margin: 0 10px;
     text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #ac9e89;
     color: white;
-    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    margin-top: 110px;
 }
 
-.top-nav a:hover {
-    color: red;
+.social-icons img {
+    height: 20px;
+    margin: 0 8px;
+    mix-blend-mode: multiply;
 }
-
+.main-content {
+      flex: 1;
+      padding: 20px;
+}
 .container {
     overflow: auto;
     padding: 20px;
+    margin: 8px;
 }
-
 .side-nav {
-    float: left;
+   
     width: 20%;
     background-color: #ffe4c4;
     padding: 15px;
     box-sizing: border-box;
+    height:100vh;
+    width: 250px;
+    background-color: #d3ceb6;
+      padding-top: 20px;
+      color: white;
 }
 
 .side-nav a {
-    display: block;
+    display: flex;
     margin-bottom: 10px;
     text-decoration: none;
     color: #333;
@@ -51,25 +73,38 @@ header {
 .side-nav a:hover {
     color: red;
 }
-
-section {
-    float: left;
-    width: 75%;
-    padding: 15px;
-    box-sizing: border-box;
-    background-color: #fff8dc;
-    border-radius: 5px;
-    margin-left: 5%;
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
-
-footer {
-    clear: both;
-    background-color: #f4a460;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    margin-top: 20px;
-}
-#tervetuloa {
+#lihavointi {
     font-weight: bold;
+}
+#teksti {
+    font-family: 'Times New Roman', Times, serif;
+}
+ul{
+    list-style-type: none;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: left; 
+  margin: 0;
+  padding-left: 0;
+} 
+
+@media (max-width: 600px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav a {
+        margin: 5px 0;
+    }
+
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
 }
