@@ -17,7 +17,18 @@ header {
 header img {
     height: 50px;
 }
-
+#pehmea{
+    border-radius: 12px;
+    box-shadow: 0 6px 12px 
+}
+#pehmea2{
+    border-radius: 12px;
+    box-shadow: 0 6px 12px 
+}
+#pehmea3{
+    border-radius: 12px;
+    box-shadow: 0 6px 12px 
+}
 nav a {
     color: white;
     margin: 0 10px;
